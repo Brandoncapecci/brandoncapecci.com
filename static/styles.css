@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #101010;
+  color: #f1f1f1;
+  font-weight: 300;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  font-weight: 300;
+  margin: 0;
+}
+
+h2 {
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #95999c;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;  
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+  padding: 0 40px;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mb-1 {
+  margin-bottom: 10px !important;
+}
+
+.mb-2 {
+  margin-bottom: 15px !important;
+}
+
+.imgGrid > div > img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.imgGridTwo > div {
+  display: flex;
+  align-items: center;
+}
+
+.imgGridTwo > div img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.imgGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.imgGridTwo {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .imgGrid {
+    grid-template-columns: 1fr;
+  }
+  .imgGridTwo {
+    grid-template-columns: 1fr;
+  }
+  .imgGrid > div, .imgGridTwo > div {
+    display: none !important;
+  }
+  .imgGrid > div:first-of-type, .imgGridTwo > div:first-of-type {
+    display: block !important;
+  }
+}
+
+.menu {
+  width: 100%;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+}
+
+.menu .container {
+  box-shadow: 0 2px 2px rgb(0 0 0 / 30%);
+  align-items: center;
+  display: flex;
+  height: 100px;
+  background-color: #101010;
+}
+
+.menu img {
+  cursor: pointer;
+  margin-right: auto;
+  width: 40px;
+  opacity: .85;
+  transition: opacity .2s ease-in;
+}
+
+.menu img:hover {
+  opacity: 1;
+}
+
+.menu .container > div {
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.menu .container > div:hover {
+  background-color: rgba(255,255,255,.08);
+}
