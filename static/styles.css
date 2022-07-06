@@ -46,8 +46,20 @@ h4 {
   padding: 0 40px;
 }
 
+.promo-info {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+}
+
+
 .mt-0 {
   margin-top: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0px !important;
 }
 
 .mb-1 {
@@ -83,6 +95,24 @@ h4 {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   grid-gap: 20px;
+}
+
+.totalRaised {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .promo-info {
+    grid-template-columns: 1fr;
+  }
+  .promo-info p {
+    display: inline-block;
+  }
+  .totalRaised {
+    margin-top: 0;
+    display: inline-block;
+    margin-right: 10px;
+  }
 }
 
 @media screen and (max-width: 600px) {

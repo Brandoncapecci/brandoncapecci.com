@@ -42,6 +42,15 @@ export default function Home() {
       padding: '25px 0',
       textAlign: 'center',
     },
+    githubChart: {
+      width: '100%',
+      opacity: '.6',
+    },
+    promoHeader: {
+      color: '#95999c',
+      fontSize: '14px',
+      marginBottom: '10px'
+    }
   };
 
   return (
@@ -66,6 +75,20 @@ export default function Home() {
           <p className='mt-0 mb-2'>I work directly with founders and product leadership teams to build greenfield software or redesign existing products.</p>
           <p className='mb-2'>I play a unique combination of project manager, designer, and engineer to translate ideas into a polished deliverable.</p>
           <p>A typical engagement is 6 months. From Figma design systems to React components, your systems will be architectually sound to scale after the engagement ends.</p>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='promo-info'>
+          <div>
+            <div style={styles.promoHeader}>Clients Raised</div>
+            <h1 className='totalRaised'>$140mm</h1>
+            <p>since 2020</p>
+          </div>
+          <div>
+            <div style={styles.promoHeader}>Github Contributions</div>
+            <img style={styles.githubChart} src="https://ghchart.rshah.org/e5ad73/brandoncapecci" alt="Name Your Github chart"/>
+          </div>
         </div>
       </div>
 
