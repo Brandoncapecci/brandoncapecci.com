@@ -127,7 +127,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={toCss(styles.work)}>
+      <div className='mb-1' style={toCss(styles.work)}>
         <div className='container'>
           <h2>Acquistions</h2>
           <h4 className='mb-1'>Linus <span>acquired by Celsius Network</span></h4>
