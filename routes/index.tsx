@@ -82,7 +82,7 @@ export default function Home() {
         <div className='promo-info'>
           <div>
             <div style={styles.promoHeader}>Clients Raised</div>
-            <h1 className='totalRaised'>$140mm</h1>
+            <h2 className='totalRaised'>$140mm</h2>
             <p>since 2020</p>
           </div>
           <div>
