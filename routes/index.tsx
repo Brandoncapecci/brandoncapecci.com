@@ -82,7 +82,7 @@ export default function Home() {
         <div className='promo-info'>
           <div>
             <div style={styles.promoHeader}>Clients Raised</div>
-            <h2 className='totalRaised'>$140mm</h2>
+            <h2 className='totalRaised'>$150mm+</h2>
             <p>since 2020</p>
           </div>
           <div>
@@ -99,6 +99,17 @@ export default function Home() {
           <div className='imgGrid'>
             <div><img src='work/vizit1.png'></img></div>
             <div><img src='work/vizit2.png'></img></div>
+          </div>
+        </div>
+      </div>
+
+      <div style={toCss(styles.work)}>
+        <div className='container'>
+          <h2>Rabbithole</h2>
+          <h4>Growing On-Chain Protocols by Rewarding Network Participation</h4>
+          <div className='imgGrid'>
+            <div><img src='work/rabbithole1.png'></img></div>
+            <div><img src='work/rabbithole2.png'></img></div>
           </div>
         </div>
       </div>
@@ -129,7 +140,7 @@ export default function Home() {
 
       <div className='mb-1' style={toCss(styles.work)}>
         <div className='container'>
-          <h2>Acquistions</h2>
+          <h2>Acquisitions</h2>
           <h4 className='mb-1'>Linus <span>acquired by Celsius Network</span></h4>
           <h4 className='mb-1'>Matter <span>acquired by Junction3D</span></h4>
           <h4 className='mb-1'>Qcentive <span>acquired by Apervita</span></h4>
