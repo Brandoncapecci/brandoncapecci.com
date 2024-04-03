@@ -123,6 +123,45 @@ export default function Home() {
       {/* 1440 x 1024 */}
       <div style={toCss(styles.work)}>
         <div className="container">
+          <h2>Vizit</h2>
+          <h4>Using Award-winning AI to Win the Race for Consumer Attention</h4>
+          <div className="imgGrid">
+            <div>
+              <img src="work/vizit1.png"></img>
+            </div>
+            <div>
+              <img src="work/vizit2.png"></img>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style={toCss(styles.work)}>
+        <div className="container">
+          <h2>District</h2>
+          <h4>
+            The Preferred Membership Community of Top VCs & Unicorn Founders
+          </h4>
+          <div className="imgGrid">
+            <div>
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                src="work/district.mp4"
+                className="w-full"
+              />
+            </div>
+            <div>
+              <img src="work/district2.png"></img>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style={toCss(styles.work)}>
+        <div className="container">
           <h2>Caddie</h2>
           <h4>
             Quantifying Engineering Performance using AI to Go Faster with Fewer
@@ -133,36 +172,6 @@ export default function Home() {
             </div>
             <div>
               <img src="work/caddie2.png"></img>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* <div style={toCss(styles.work)}>
-        <div className="container">
-          <h2>District</h2>
-          <h4>Using Award-winning AI to Win the Race for Consumer Attention</h4>
-          <div className="imgGrid">
-            <div>
-              <img src="work/vizit1.png"></img>
-            </div>
-            <div>
-              <img src="work/vizit2.png"></img>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      <div style={toCss(styles.work)}>
-        <div className="container">
-          <h2>Vizit</h2>
-          <h4>Using Award-winning AI to Win the Race for Consumer Attention</h4>
-          <div className="imgGrid">
-            <div>
-              <img src="work/vizit1.png"></img>
-            </div>
-            <div>
-              <img src="work/vizit2.png"></img>
             </div>
           </div>
         </div>
